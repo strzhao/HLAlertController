@@ -18,4 +18,9 @@ easy to use
     [alert showWithViewController:self];
     
     
+alert
+https://github.com/JustString/HLAlertController/snap1.png
 
+
+actionSheet
+https://github.com/JustString/HLAlertController/snap2.png
