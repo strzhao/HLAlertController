@@ -19,8 +19,7 @@ easy to use
     
     
 alert
-https://github.com/JustString/HLAlertController/snap1.png
-
+https://github.com/JustString/HLAlertController/blob/master/snap1.PNG
 
 actionSheet
-https://github.com/JustString/HLAlertController/snap2.png
+https://github.com/JustString/HLAlertController/blob/master/snap2.PNG
