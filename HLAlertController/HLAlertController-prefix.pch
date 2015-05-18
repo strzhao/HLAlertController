@@ -1,0 +1,21 @@
+//
+//  HLAlertController-prefix.pch
+//  HLAlertController
+//
+//  Created by String on 15/5/18.
+//  Copyright (c) 2015年 ___string___. All rights reserved.
+//
+
+#ifndef HLAlertController_HLAlertController_prefix_pch
+#define HLAlertController_HLAlertController_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+
+
+#endif
