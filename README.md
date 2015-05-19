@@ -17,6 +17,6 @@ easy to use
     
     [alert showWithViewController:self];
     
-![alt text](https://github.com/JustString/HLAlertController/blob/master/snap1.PNG, "alert")
+![alt text](https://github.com/JustString/HLAlertController/blob/master/snap1.PNG "alert")
 
-![alt text](https://github.com/JustString/HLAlertController/blob/master/snap2.PNG, "actionSheet")
+![alt text](https://github.com/JustString/HLAlertController/blob/master/snap2.PNG "actionSheet")
