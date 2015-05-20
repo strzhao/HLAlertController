@@ -39,6 +39,17 @@ static const CGFloat kHLAlertControllerWidthFactor = 0.853f;
     }
     [self.view addSubview:_vBack];
     
+
+    UIInterpolatingMotionEffect *effectHorizontal = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x" type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+    effectHorizontal.minimumRelativeValue = @(-40);
+    effectHorizontal.maximumRelativeValue = @(40);
+    [_vBack addMotionEffect:effectHorizontal];
+    
+    UIInterpolatingMotionEffect *effectVertical = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.y" type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+    effectVertical.minimumRelativeValue = @(-40);
+    effectVertical.maximumRelativeValue = @(40);
+    [_vBack addMotionEffect:effectVertical];
+    
     CGFloat factor = self.preferredStyle == HLAlertControllerStyleAlert ? kHLAlertControllerWidthFactor : 1;
     [_vBack makeConstraints:^(MASConstraintMaker *make) {
         self.preferredStyle == HLAlertControllerStyleAlert ?  make.centerY.equalTo(self.view) : make.bottom.equalTo(self.view.bottom);

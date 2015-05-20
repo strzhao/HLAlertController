@@ -18,7 +18,7 @@
         UIButton *btn = [[UIButton alloc] init];
         btn.tag = idx + 1;
         [btn addTarget:self action:@selector(showAlertView:) forControlEvents:UIControlEventTouchUpInside];
-        [btn setTitle:idx ? @"alert" : @"actionSheet" forState:UIControlStateNormal];
+        [btn setTitle:idx ? @"actionSheet" : @"alert" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor darkTextColor] forState:UIControlStateNormal];
         [self.view addSubview:btn];
         
@@ -42,14 +42,14 @@
     [alert addAction:[HLAlertAction actionWithTitle:@"警告" style:HLAlertActionStyleDestructive handler:^(HLAlertAction *action) {
         NSLog(@"button three");
     }]];
-    if (sender.tag == 1) {
-        [alert addTextFieldWithConfigure:^(UITextField *textField) {
-            textField.placeholder = @"输入账号";
-        }];
-        [alert addTextFieldWithConfigure:^(UITextField *textField) {
-            textField.placeholder = @"输入密码";
-        }];
-    }
+//    if (sender.tag == 1) {
+//        [alert addTextFieldWithConfigure:^(UITextField *textField) {
+//            textField.placeholder = @"输入账号";
+//        }];
+//        [alert addTextFieldWithConfigure:^(UITextField *textField) {
+//            textField.placeholder = @"输入密码";
+//        }];
+//    }
     
     [alert showWithViewController:self];
 }
