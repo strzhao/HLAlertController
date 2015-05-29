@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC130E331B188D710058643E /* UIImage+HLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC130E321B188D710058643E /* UIImage+HLColor.m */; };
 		EC1F152C1B0A28EA004E4F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F152B1B0A28EA004E4F6C /* main.m */; };
 		EC1F152F1B0A28EA004E4F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F152E1B0A28EA004E4F6C /* AppDelegate.m */; };
 		EC1F15321B0A28EA004E4F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F15311B0A28EA004E4F6C /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC130E311B188D710058643E /* UIImage+HLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLColor.h"; sourceTree = "<group>"; };
+		EC130E321B188D710058643E /* UIImage+HLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLColor.m"; sourceTree = "<group>"; };
 		EC1F15261B0A28EA004E4F6C /* HLAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1F152A1B0A28EA004E4F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1F152B1B0A28EA004E4F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC130E301B188CF70058643E /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				EC130E311B188D710058643E /* UIImage+HLColor.h */,
+				EC130E321B188D710058643E /* UIImage+HLColor.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
 		EC1F151D1B0A28EA004E4F6C = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +178,7 @@
 		EC1F15501B0A29A9004E4F6C /* HLAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				EC130E301B188CF70058643E /* categories */,
 				EC1F15751B0A29D3004E4F6C /* transition */,
 				EC1F15541B0A29BD004E4F6C /* masonry */,
 				EC1F15511B0A29B4004E4F6C /* HLAlertController.h */,
@@ -326,6 +339,7 @@
 				EC1F15711B0A29C8004E4F6C /* MASViewConstraint.m in Sources */,
 				EC1F15701B0A29C8004E4F6C /* MASViewAttribute.m in Sources */,
 				EC1F156C1B0A29C8004E4F6C /* View+MASAdditions.m in Sources */,
+				EC130E331B188D710058643E /* UIImage+HLColor.m in Sources */,
 				EC1F157B1B0A29DD004E4F6C /* HLAlertTransitionController.m in Sources */,
 				EC1F156E1B0A29C8004E4F6C /* MASConstraint.m in Sources */,
 				EC1F15721B0A29C8004E4F6C /* MASConstraintMaker.m in Sources */,

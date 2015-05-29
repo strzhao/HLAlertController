@@ -17,10 +17,15 @@ typedef NS_ENUM(NSInteger, HLAlertActionStyle) {
     HLAlertActionStyleDestructive
 };
 
+/**
+ style for alertController
+ */
 typedef NS_ENUM(NSInteger, HLAlertControllerStyle) {
     HLAlertControllerStyleActionSheet,
     HLAlertControllerStyleAlert,
 };
+
+
 
 @interface HLAlertAction : UIView
 
@@ -30,6 +35,10 @@ typedef NS_ENUM(NSInteger, HLAlertControllerStyle) {
 @property (nonatomic, readonly) HLAlertActionStyle style;
 
 @end
+
+
+
+
 
 @interface HLAlertController : UIViewController
 
@@ -48,6 +57,8 @@ typedef NS_ENUM(NSInteger, HLAlertControllerStyle) {
 @property (nonatomic, readonly) HLAlertControllerStyle preferredStyle;
 
 @end
+
+
 
 
 @interface HLAlertControllerTransitionManager : NSObject

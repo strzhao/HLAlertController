@@ -8,6 +8,7 @@
 
 #import "HLAlertController.h"
 #import "HLAlertTransitionController.h"
+#import "UIImage+HLColor.h"
 
 static const CGFloat kHLAlertControllerWidthFactor = 0.853f;
 
@@ -39,16 +40,17 @@ static const CGFloat kHLAlertControllerWidthFactor = 0.853f;
     }
     [self.view addSubview:_vBack];
     
-
-    UIInterpolatingMotionEffect *effectHorizontal = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x" type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
-    effectHorizontal.minimumRelativeValue = @(-40);
-    effectHorizontal.maximumRelativeValue = @(40);
-    [_vBack addMotionEffect:effectHorizontal];
-    
-    UIInterpolatingMotionEffect *effectVertical = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.y" type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
-    effectVertical.minimumRelativeValue = @(-40);
-    effectVertical.maximumRelativeValue = @(40);
-    [_vBack addMotionEffect:effectVertical];
+    if (self.preferredStyle == HLAlertControllerStyleAlert) {
+        UIInterpolatingMotionEffect *effectHorizontal = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x" type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+        effectHorizontal.minimumRelativeValue = @(-40);
+        effectHorizontal.maximumRelativeValue = @(40);
+        [_vBack addMotionEffect:effectHorizontal];
+        
+        UIInterpolatingMotionEffect *effectVertical = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.y" type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+        effectVertical.minimumRelativeValue = @(-40);
+        effectVertical.maximumRelativeValue = @(40);
+        [_vBack addMotionEffect:effectVertical];
+    }
     
     CGFloat factor = self.preferredStyle == HLAlertControllerStyleAlert ? kHLAlertControllerWidthFactor : 1;
     [_vBack makeConstraints:^(MASConstraintMaker *make) {
@@ -219,6 +221,11 @@ static const CGFloat kHLAlertControllerWidthFactor = 0.853f;
     UIButton *btn = [UIButton new];
     [btn addTarget:vAlert action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     [btn setTitleColor:[self colorForStyle:style] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor darkTextColor] forState:UIControlStateHighlighted];
+    
+    [btn setTitleShadowColor:[[UIColor blackColor] colorWithAlphaComponent:.5] forState:UIControlStateHighlighted];
+    [btn setBackgroundImage:[UIImage HL_imageWithColor:[UIColor colorWithWhite:.9 alpha:1]] forState:UIControlStateHighlighted];
+    
     [btn setTitle:title forState:UIControlStateNormal];
     [vAlert addSubview:btn];
     
