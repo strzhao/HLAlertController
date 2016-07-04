@@ -117,4 +117,26 @@
     [self setHL_y:HL_bottom - self.HL_height];
 }
 
+
+
+- (CGFloat)HL_centerX {
+    return self.center.x;
+}
+
+- (void)setHL_centerX:(CGFloat)HL_centerX {
+    CGPoint center = self.center;
+    center.x = HL_centerX;
+    self.center = center;
+}
+
+- (CGFloat)HL_centerY {
+    return self.center.y;
+}
+
+- (void)setHL_centerY:(CGFloat)HL_centerY {
+    CGPoint center = self.center;
+    center.y = HL_centerY;
+    self.center = center;
+}
+
 @end

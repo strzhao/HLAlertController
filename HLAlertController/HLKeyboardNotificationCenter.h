@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 alex. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /*
     保存keyboard的信息的类

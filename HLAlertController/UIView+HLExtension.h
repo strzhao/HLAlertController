@@ -21,4 +21,7 @@
 @property (assign, nonatomic) CGFloat HL_right;
 @property (assign, nonatomic) CGFloat HL_bottom;
 
+@property (assign, nonatomic) CGFloat HL_centerX;
+@property (assign, nonatomic) CGFloat HL_centerY;
+
 @end

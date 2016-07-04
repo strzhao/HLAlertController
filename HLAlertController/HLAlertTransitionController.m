@@ -16,7 +16,7 @@
 @end
 @implementation HLAlertTransitionController
 
-- (id)initWithPresentingViewController:(UIViewController*)presentingVC
+- (id)initWithPresentingViewController:(UIViewController *)presentingVC
 {
     self = [super init];
     if (self) {
