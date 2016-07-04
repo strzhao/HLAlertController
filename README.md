@@ -15,7 +15,7 @@ easy to use
         NSLog(@"button three");
     }]];
     
-    [alert showWithViewController:self];
+    [self presentViewController:alert animated:YES completion:nil];
     
 ![alt text](https://github.com/JustString/HLAlertController/blob/master/snap1.PNG "alert")
 
