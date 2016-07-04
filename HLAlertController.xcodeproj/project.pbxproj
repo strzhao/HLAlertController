@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC130E331B188D710058643E /* UIImage+HLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC130E321B188D710058643E /* UIImage+HLColor.m */; };
 		EC1F152C1B0A28EA004E4F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F152B1B0A28EA004E4F6C /* main.m */; };
 		EC1F152F1B0A28EA004E4F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F152E1B0A28EA004E4F6C /* AppDelegate.m */; };
 		EC1F15321B0A28EA004E4F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F15311B0A28EA004E4F6C /* ViewController.m */; };
@@ -15,12 +14,13 @@
 		EC1F15371B0A28EA004E4F6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1F15361B0A28EA004E4F6C /* Images.xcassets */; };
 		EC1F153A1B0A28EA004E4F6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1F15381B0A28EA004E4F6C /* LaunchScreen.xib */; };
 		EC1F15461B0A28EA004E4F6C /* HLAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F15451B0A28EA004E4F6C /* HLAlertControllerTests.m */; };
-		EC1F15531B0A29B4004E4F6C /* HLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F15521B0A29B4004E4F6C /* HLAlertController.m */; };
-		EC1F157A1B0A29DD004E4F6C /* HLAlertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F15771B0A29DD004E4F6C /* HLAlertTransition.m */; };
-		EC1F157B1B0A29DD004E4F6C /* HLAlertTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F15791B0A29DD004E4F6C /* HLAlertTransitionController.m */; };
-		EC5A750B1D2A15B800F65FE7 /* UITextField+HLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A750A1D2A15B800F65FE7 /* UITextField+HLAdd.m */; };
-		EC5A75101D2A15F100F65FE7 /* HLKeyboardNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A750F1D2A15F100F65FE7 /* HLKeyboardNotificationCenter.m */; };
-		EC5A75131D2A3D0D00F65FE7 /* UIView+HLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A75121D2A3D0D00F65FE7 /* UIView+HLExtension.m */; };
+		EC5A75251D2A65B100F65FE7 /* UIImage+HLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A75171D2A65B100F65FE7 /* UIImage+HLColor.m */; };
+		EC5A75261D2A65B100F65FE7 /* UITextField+HLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A75191D2A65B100F65FE7 /* UITextField+HLAdd.m */; };
+		EC5A75271D2A65B100F65FE7 /* UIView+HLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A751B1D2A65B100F65FE7 /* UIView+HLExtension.m */; };
+		EC5A75281D2A65B100F65FE7 /* HLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A751D1D2A65B100F65FE7 /* HLAlertController.m */; };
+		EC5A75291D2A65B100F65FE7 /* HLAlertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A75201D2A65B100F65FE7 /* HLAlertTransition.m */; };
+		EC5A752A1D2A65B100F65FE7 /* HLAlertTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A75221D2A65B100F65FE7 /* HLAlertTransitionController.m */; };
+		EC5A752B1D2A65B100F65FE7 /* HLKeyboardNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A75241D2A65B100F65FE7 /* HLKeyboardNotificationCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC130E311B188D710058643E /* UIImage+HLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLColor.h"; sourceTree = "<group>"; };
-		EC130E321B188D710058643E /* UIImage+HLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLColor.m"; sourceTree = "<group>"; };
 		EC1F15261B0A28EA004E4F6C /* HLAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1F152A1B0A28EA004E4F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1F152B1B0A28EA004E4F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,18 +48,20 @@
 		EC1F15441B0A28EA004E4F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1F15451B0A28EA004E4F6C /* HLAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAlertControllerTests.m; sourceTree = "<group>"; };
 		EC1F154F1B0A2948004E4F6C /* HLAlertController-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HLAlertController-prefix.pch"; sourceTree = "<group>"; };
-		EC1F15511B0A29B4004E4F6C /* HLAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertController.h; sourceTree = "<group>"; };
-		EC1F15521B0A29B4004E4F6C /* HLAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertController.m; sourceTree = "<group>"; };
-		EC1F15761B0A29DD004E4F6C /* HLAlertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertTransition.h; sourceTree = "<group>"; };
-		EC1F15771B0A29DD004E4F6C /* HLAlertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertTransition.m; sourceTree = "<group>"; };
-		EC1F15781B0A29DD004E4F6C /* HLAlertTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertTransitionController.h; sourceTree = "<group>"; };
-		EC1F15791B0A29DD004E4F6C /* HLAlertTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertTransitionController.m; sourceTree = "<group>"; };
-		EC5A75091D2A15B800F65FE7 /* UITextField+HLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HLAdd.h"; sourceTree = "<group>"; };
-		EC5A750A1D2A15B800F65FE7 /* UITextField+HLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HLAdd.m"; sourceTree = "<group>"; };
-		EC5A750E1D2A15F100F65FE7 /* HLKeyboardNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLKeyboardNotificationCenter.h; sourceTree = "<group>"; };
-		EC5A750F1D2A15F100F65FE7 /* HLKeyboardNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLKeyboardNotificationCenter.m; sourceTree = "<group>"; };
-		EC5A75111D2A3D0D00F65FE7 /* UIView+HLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLExtension.h"; sourceTree = "<group>"; };
-		EC5A75121D2A3D0D00F65FE7 /* UIView+HLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLExtension.m"; sourceTree = "<group>"; };
+		EC5A75161D2A65B100F65FE7 /* UIImage+HLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLColor.h"; sourceTree = "<group>"; };
+		EC5A75171D2A65B100F65FE7 /* UIImage+HLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLColor.m"; sourceTree = "<group>"; };
+		EC5A75181D2A65B100F65FE7 /* UITextField+HLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HLAdd.h"; sourceTree = "<group>"; };
+		EC5A75191D2A65B100F65FE7 /* UITextField+HLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HLAdd.m"; sourceTree = "<group>"; };
+		EC5A751A1D2A65B100F65FE7 /* UIView+HLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLExtension.h"; sourceTree = "<group>"; };
+		EC5A751B1D2A65B100F65FE7 /* UIView+HLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLExtension.m"; sourceTree = "<group>"; };
+		EC5A751C1D2A65B100F65FE7 /* HLAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertController.h; sourceTree = "<group>"; };
+		EC5A751D1D2A65B100F65FE7 /* HLAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertController.m; sourceTree = "<group>"; };
+		EC5A751F1D2A65B100F65FE7 /* HLAlertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertTransition.h; sourceTree = "<group>"; };
+		EC5A75201D2A65B100F65FE7 /* HLAlertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertTransition.m; sourceTree = "<group>"; };
+		EC5A75211D2A65B100F65FE7 /* HLAlertTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertTransitionController.h; sourceTree = "<group>"; };
+		EC5A75221D2A65B100F65FE7 /* HLAlertTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertTransitionController.m; sourceTree = "<group>"; };
+		EC5A75231D2A65B100F65FE7 /* HLKeyboardNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLKeyboardNotificationCenter.h; sourceTree = "<group>"; };
+		EC5A75241D2A65B100F65FE7 /* HLKeyboardNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLKeyboardNotificationCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,19 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC130E301B188CF70058643E /* categories */ = {
-			isa = PBXGroup;
-			children = (
-				EC5A75111D2A3D0D00F65FE7 /* UIView+HLExtension.h */,
-				EC5A75121D2A3D0D00F65FE7 /* UIView+HLExtension.m */,
-				EC5A75091D2A15B800F65FE7 /* UITextField+HLAdd.h */,
-				EC5A750A1D2A15B800F65FE7 /* UITextField+HLAdd.m */,
-				EC130E311B188D710058643E /* UIImage+HLColor.h */,
-				EC130E321B188D710058643E /* UIImage+HLColor.m */,
-			);
-			name = categories;
-			sourceTree = "<group>";
-		};
 		EC1F151D1B0A28EA004E4F6C = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +103,7 @@
 		EC1F15281B0A28EA004E4F6C /* HLAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				EC5A75141D2A65B100F65FE7 /* HLAlertController */,
 				EC1F152D1B0A28EA004E4F6C /* AppDelegate.h */,
 				EC1F152E1B0A28EA004E4F6C /* AppDelegate.m */,
 				EC1F15301B0A28EA004E4F6C /* ViewController.h */,
@@ -123,7 +111,6 @@
 				EC1F15331B0A28EA004E4F6C /* Main.storyboard */,
 				EC1F15361B0A28EA004E4F6C /* Images.xcassets */,
 				EC1F15381B0A28EA004E4F6C /* LaunchScreen.xib */,
-				EC1F15501B0A29A9004E4F6C /* HLAlertController */,
 				EC1F15291B0A28EA004E4F6C /* Supporting Files */,
 			);
 			path = HLAlertController;
@@ -156,44 +143,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC1F15501B0A29A9004E4F6C /* HLAlertController */ = {
+		EC5A75141D2A65B100F65FE7 /* HLAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				EC5A750C1D2A15D500F65FE7 /* util */,
-				EC130E301B188CF70058643E /* categories */,
-				EC1F15751B0A29D3004E4F6C /* transition */,
-				EC1F15511B0A29B4004E4F6C /* HLAlertController.h */,
-				EC1F15521B0A29B4004E4F6C /* HLAlertController.m */,
+				EC5A751E1D2A65B100F65FE7 /* utils */,
+				EC5A75151D2A65B100F65FE7 /* categories */,
+				EC5A751C1D2A65B100F65FE7 /* HLAlertController.h */,
+				EC5A751D1D2A65B100F65FE7 /* HLAlertController.m */,
 			);
-			name = HLAlertController;
+			path = HLAlertController;
 			sourceTree = "<group>";
 		};
-		EC1F15751B0A29D3004E4F6C /* transition */ = {
+		EC5A75151D2A65B100F65FE7 /* categories */ = {
 			isa = PBXGroup;
 			children = (
-				EC1F15761B0A29DD004E4F6C /* HLAlertTransition.h */,
-				EC1F15771B0A29DD004E4F6C /* HLAlertTransition.m */,
-				EC1F15781B0A29DD004E4F6C /* HLAlertTransitionController.h */,
-				EC1F15791B0A29DD004E4F6C /* HLAlertTransitionController.m */,
+				EC5A75161D2A65B100F65FE7 /* UIImage+HLColor.h */,
+				EC5A75171D2A65B100F65FE7 /* UIImage+HLColor.m */,
+				EC5A75181D2A65B100F65FE7 /* UITextField+HLAdd.h */,
+				EC5A75191D2A65B100F65FE7 /* UITextField+HLAdd.m */,
+				EC5A751A1D2A65B100F65FE7 /* UIView+HLExtension.h */,
+				EC5A751B1D2A65B100F65FE7 /* UIView+HLExtension.m */,
 			);
-			name = transition;
+			path = categories;
 			sourceTree = "<group>";
 		};
-		EC5A750C1D2A15D500F65FE7 /* util */ = {
+		EC5A751E1D2A65B100F65FE7 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				EC5A750D1D2A15DE00F65FE7 /* keyboard */,
+				EC5A751F1D2A65B100F65FE7 /* HLAlertTransition.h */,
+				EC5A75201D2A65B100F65FE7 /* HLAlertTransition.m */,
+				EC5A75211D2A65B100F65FE7 /* HLAlertTransitionController.h */,
+				EC5A75221D2A65B100F65FE7 /* HLAlertTransitionController.m */,
+				EC5A75231D2A65B100F65FE7 /* HLKeyboardNotificationCenter.h */,
+				EC5A75241D2A65B100F65FE7 /* HLKeyboardNotificationCenter.m */,
 			);
-			name = util;
-			sourceTree = "<group>";
-		};
-		EC5A750D1D2A15DE00F65FE7 /* keyboard */ = {
-			isa = PBXGroup;
-			children = (
-				EC5A750E1D2A15F100F65FE7 /* HLKeyboardNotificationCenter.h */,
-				EC5A750F1D2A15F100F65FE7 /* HLKeyboardNotificationCenter.m */,
-			);
-			name = keyboard;
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,16 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5A752B1D2A65B100F65FE7 /* HLKeyboardNotificationCenter.m in Sources */,
+				EC5A75271D2A65B100F65FE7 /* UIView+HLExtension.m in Sources */,
+				EC5A75281D2A65B100F65FE7 /* HLAlertController.m in Sources */,
 				EC1F15321B0A28EA004E4F6C /* ViewController.m in Sources */,
 				EC1F152F1B0A28EA004E4F6C /* AppDelegate.m in Sources */,
-				EC1F157A1B0A29DD004E4F6C /* HLAlertTransition.m in Sources */,
-				EC1F15531B0A29B4004E4F6C /* HLAlertController.m in Sources */,
-				EC5A750B1D2A15B800F65FE7 /* UITextField+HLAdd.m in Sources */,
-				EC5A75101D2A15F100F65FE7 /* HLKeyboardNotificationCenter.m in Sources */,
-				EC130E331B188D710058643E /* UIImage+HLColor.m in Sources */,
-				EC5A75131D2A3D0D00F65FE7 /* UIView+HLExtension.m in Sources */,
-				EC1F157B1B0A29DD004E4F6C /* HLAlertTransitionController.m in Sources */,
+				EC5A75261D2A65B100F65FE7 /* UITextField+HLAdd.m in Sources */,
+				EC5A752A1D2A65B100F65FE7 /* HLAlertTransitionController.m in Sources */,
+				EC5A75291D2A65B100F65FE7 /* HLAlertTransition.m in Sources */,
 				EC1F152C1B0A28EA004E4F6C /* main.m in Sources */,
+				EC5A75251D2A65B100F65FE7 /* UIImage+HLColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
