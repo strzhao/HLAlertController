@@ -3,6 +3,8 @@ alert to replace system alert.
 
 easy to use
 
+pod 'HLAlertController'
+
     HLAlertController *alert = [HLAlertController alertControllerWithTitle:@"标题" message:@"副标题 允许换行, 允许换行, 允许换行, 允许换行, 允许换行, 允许换行, 允许换行, 允许换行" preferredStyle:style];
     
     [alert addAction:[HLAlertAction actionWithTitle:@"取消" style:HLAlertActionStyleCancel handler:^(HLAlertAction *action) {
