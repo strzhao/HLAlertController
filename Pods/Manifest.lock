@@ -1,0 +1,10 @@
+PODS:
+  - HLAlertController (1.0.0)
+
+DEPENDENCIES:
+  - HLAlertController (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  HLAlertController: a9e2690482fd083519fca94fb1b50fef95ef2275
+
+COCOAPODS: 0.39.0
